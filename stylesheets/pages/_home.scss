@@ -1,3 +1,29 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+.middle-1 {
+  background-color: $light-grey;
+  height: auto;
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+}
+
+.middle-1-cards {
+  padding-top: $section-padding;
+}
+
+.middle-2 {
+  height: auto;
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+}
+
+.middle-3 {
+  height: auto;
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+}
+
+[class*='middle-day-'] {
+  padding-bottom: $section-padding;
+}

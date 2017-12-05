@@ -5,15 +5,34 @@
   background-image: url("http://startupweekend.org/assets/sw-hero-home.png");
   background-size: cover;
   @media (min-height: $large) {
-      height: 50vw;
+      height: auto;
+      padding-bottom: $section-padding;
   }
   text-align: center;
   color: $white;
 }
 
+.navbar{
+  width: 100%;
+  height: 5em;
+
+}
 .navbar-brand {
   background-image:url(../img/logos/techstartup-logo.svg);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 18em;
   height: 100%;
+}
+
+.hero-text {
+  padding-top: $section-padding;
+}
+
+.hero-search {
+  margin-top: $section-padding;
+  width: 100%;
+  height: 8em;
+  background-color: $brand-color;
+  border-radius: 13px;
 }
