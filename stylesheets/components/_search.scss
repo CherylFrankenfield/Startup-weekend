@@ -1,0 +1,19 @@
+.search{
+  width: 50%;
+  vertical-align: middle;
+  margin: 0px auto;
+  height: 5em;
+  text-align: center;
+  & p, input {
+    margin-right: 2em;
+  }
+}
+
+.btn {
+  background-color: $white;
+
+  &:hover {
+    color: $white;
+    background-color: $brand-color;
+  }
+}

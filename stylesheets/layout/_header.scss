@@ -13,27 +13,19 @@
   padding-top: 0px;
 }
 
-.navbar{
-  width: 100%;
-  height: 5em;
 
-}
-.navbar-brand {
-  background-image:url(../img/logos/techstartup-logo.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 18em;
-  height: 100%;
-}
 
 .hero-text {
   padding-top: $section-padding;
 }
 
 .hero-search {
-  margin-top: $section-padding;
+  background-color: $brand-color;
   width: 100%;
   height: 8em;
-  background-color: $brand-color;
+}
+
+.header-search {
+  margin-top: $section-padding;
   border-radius: 13px;
 }

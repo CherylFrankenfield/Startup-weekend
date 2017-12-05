@@ -26,7 +26,8 @@ section {
   padding-bottom: 7em; }
 
 .container-fluid {
-  padding: 0px; }
+  padding: 0px;
+  overflow: hidden; }
 
 /**
  * Clear inner floats
@@ -79,25 +80,16 @@ section {
       height: auto;
       padding-bottom: 7em; } }
 
-.navbar {
-  width: 100%;
-  height: 5em; }
-
-.navbar-brand {
-  background-image: url(../img/logos/techstartup-logo.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 18em;
-  height: 100%; }
-
 .hero-text {
   padding-top: 7em; }
 
 .hero-search {
-  margin-top: 7em;
-  width: 100%;
-  height: 8em;
   background-color: #0fb24b;
+  width: 100%;
+  height: 8em; }
+
+.header-search {
+  margin-top: 7em;
   border-radius: 13px; }
 
 footer {
@@ -120,6 +112,42 @@ footer {
   padding-top: 5em;
   padding-bottom: 2em;
   color: #ffffff; }
+
+.navbar {
+  width: 100%;
+  height: 5em; }
+
+.navbar-brand {
+  background-image: url(../img/logos/techstartup-logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 18em;
+  height: 100%; }
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff; }
+  .nav-link:hover {
+    background-color: #0fb24b78;
+    color: white; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white; }
+
+.search {
+  width: 50%;
+  vertical-align: middle;
+  margin: 0px auto;
+  height: 5em;
+  text-align: center; }
+  .search p, .search input {
+    margin-right: 2em; }
+
+.btn {
+  background-color: #ffffff; }
+  .btn:hover {
+    color: #ffffff;
+    background-color: #0fb24b; }
 
 .middle-1 {
   background-color: #f4f4f4; }
