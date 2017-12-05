@@ -1,5 +1,4 @@
 @charset 'UTF-8';
-
 // 1. Configuration and helpers
 @import
   'abstracts/variables',
@@ -25,3 +24,12 @@
 // 6. Page-specific styles
 @import
   'pages/home';
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.columns {
+  min-height: 100px;
+}

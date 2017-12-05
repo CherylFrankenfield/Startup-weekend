@@ -1,3 +1,19 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+.hero {
+  background-image: url("http://startupweekend.org/assets/sw-hero-home.png");
+  background-size: cover;
+  @media (min-height: $large) {
+      height: 50vw;
+  }
+  text-align: center;
+  color: $white;
+}
+
+.navbar-brand {
+  background-image:url(../img/logos/techstartup-logo.svg);
+  background-size: cover;
+  width: 18em;
+  height: 100%;
+}

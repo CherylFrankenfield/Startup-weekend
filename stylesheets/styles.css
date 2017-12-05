@@ -13,11 +13,17 @@ html {
  * Basic styles for links
  */
 a {
-  color: #e50050;
+  color: #0fb24b;
   text-decoration: none; }
   a:hover, a:active, a:focus {
-    color: #222222;
+    color: black;
     text-decoration: underline; }
+
+section {
+  width: 100vw; }
+
+.container-fluid {
+  padding: 0px; }
 
 /**
  * Clear inner floats
@@ -57,5 +63,27 @@ a {
   padding: 0;
   position: absolute;
   width: 1px; }
+
+.hero {
+  background-image: url("http://startupweekend.org/assets/sw-hero-home.png");
+  background-size: cover;
+  text-align: center;
+  color: #ffffff; }
+  @media (min-height: 1024px) {
+    .hero {
+      height: 50vw; } }
+
+.navbar-brand {
+  background-image: url(../img/logos/techstartup-logo.svg);
+  background-size: cover;
+  width: 18em;
+  height: 100%; }
+
+*:not(body):not(html) {
+  box-sizing: border-box;
+  border: 1px dashed #000; }
+
+.columns {
+  min-height: 100px; }
 
 /*# sourceMappingURL=styles.css.map */

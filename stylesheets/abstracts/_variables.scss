@@ -4,32 +4,34 @@
 
 /// Copy text color
 /// @type Color
-$text-color: rgb(34, 34, 34) !default;
+$text-color: black !default;
 
 /// Main brand color
 /// @type Color
-$brand-color: rgb(229, 0, 80) !default;
+$brand-color: #0fb24b !default;
 
 /// Light grey
 /// @type Color
-$light-grey: rgb(237, 237, 237) !default;
+$light-grey: #f4f4f4 !default;
 
 /// Medium grey
 /// @type Color
-$mid-grey: rgb(153, 153, 153) !default;
+$mid-grey: #808080 !default;
 
 /// Dark grey
 /// @type Color
-$dark-grey: rgb(68, 68, 68) !default;
-
+$grey: #414141 !default;
+$dark-grey: #262626;
+$white: #ffffff;
 
 /// Container's maximum width
 /// @type Length
 $max-width: 1180px !default;
 
 
-
-
+$small: 320px;
+$medium: 768px;
+$large: 1024px;
 
 /// Breakpoints map
 /// @prop {String} keys - Keys are identifiers mapped to a given length
