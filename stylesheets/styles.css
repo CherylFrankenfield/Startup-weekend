@@ -20,7 +20,10 @@ a {
     text-decoration: underline; }
 
 section {
-  width: 100vw; }
+  width: 100vw;
+  height: auto;
+  padding-top: 7em;
+  padding-bottom: 7em; }
 
 .container-fluid {
   padding: 0px; }
@@ -97,26 +100,34 @@ section {
   border-radius: 13px; }
 
 .middle-1 {
-  background-color: #f4f4f4;
-  height: auto;
-  padding-top: 7em;
-  padding-bottom: 7em; }
+  background-color: #f4f4f4; }
 
 .middle-1-cards {
   padding-top: 7em; }
 
-.middle-2 {
-  height: auto;
-  padding-top: 7em;
-  padding-bottom: 7em; }
-
 .middle-3 {
-  height: auto;
-  padding-top: 7em;
-  padding-bottom: 7em; }
+  background-color: #f4f4f4; }
 
 [class*='middle-day-'] {
   padding-bottom: 7em; }
+
+.middle-3-text {
+  padding-bottom: 7em; }
+
+.bottom-1 {
+  background-color: #808080;
+  color: #ffffff; }
+
+.bottom-2 {
+  background-color: #0fb24b;
+  color: #ffffff; }
+
+.bottom-card {
+  color: #0fb24b; }
+
+.bottom-card .card-body {
+  color: #ffffff;
+  background-color: #808080; }
 
 *:not(body):not(html) {
   box-sizing: border-box;

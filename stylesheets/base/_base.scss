@@ -29,6 +29,9 @@ a {
 
 section {
   width: 100vw;
+  height: auto;
+  padding-top: $section-padding;
+  padding-bottom: $section-padding
 }
 
 .container-fluid {

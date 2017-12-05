@@ -3,9 +3,6 @@
 // -----------------------------------------------------------------------------
 .middle-1 {
   background-color: $light-grey;
-  height: auto;
-  padding-top: $section-padding;
-  padding-bottom: $section-padding;
 }
 
 .middle-1-cards {
@@ -13,17 +10,35 @@
 }
 
 .middle-2 {
-  height: auto;
-  padding-top: $section-padding;
-  padding-bottom: $section-padding;
 }
 
 .middle-3 {
-  height: auto;
-  padding-top: $section-padding;
-  padding-bottom: $section-padding;
+  background-color: $light-grey;
 }
 
 [class*='middle-day-'] {
   padding-bottom: $section-padding;
+}
+
+.middle-3-text {
+  padding-bottom: $section-padding;
+}
+
+.bottom-1 {
+  background-color: $mid-grey;
+  color: $white;
+}
+
+.bottom-2 {
+  background-color: $brand-color;
+  color: $white;
+}
+
+.bottom-card {
+  color: $brand-color;
+}
+
+.bottom-card .card-body{
+  color: $white;
+  background-color: $mid-grey;
 }
