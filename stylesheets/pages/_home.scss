@@ -27,6 +27,8 @@
 .bottom-1 {
   background-color: $mid-grey;
   color: $white;
+
+
 }
 
 .bottom-2 {
@@ -34,11 +36,41 @@
   color: $white;
 }
 
+.bottom-2-text a {
+  color: $white;
+  text-decoration: none;
+}
 .bottom-card {
   color: $brand-color;
 }
 
 .bottom-card .card-body{
   color: $white;
+  background-color: $mid-grey;
+}
+
+.bottom-3-logo img {
+  width: 100%;
+  filter: grayscale(100%);
+
+  &:hover{
+    filter: none;
+  }
+}
+
+.bottom-3 {
+  background-color: $light-grey;
+}
+
+.search-3{
+  background-color: $brand-color;
+  color: white;
+}
+
+.bottom-5-logo img {
+  width: 100%;
+  filter: grayscale(100%);
+}
+.bottom-5 {
   background-color: $mid-grey;
 }

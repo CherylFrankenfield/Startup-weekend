@@ -72,7 +72,8 @@ section {
   background-image: url("http://startupweekend.org/assets/sw-hero-home.png");
   background-size: cover;
   text-align: center;
-  color: #ffffff; }
+  color: #ffffff;
+  padding-top: 0px; }
   @media (min-height: 1024px) {
     .hero {
       height: auto;
@@ -99,6 +100,27 @@ section {
   background-color: #0fb24b;
   border-radius: 13px; }
 
+footer {
+  height: auto;
+  background-color: #414141;
+  list-style: none; }
+  footer li {
+    list-style: none; }
+
+.left-footer img {
+  width: 100%; }
+
+.left-footer, .middle-footer {
+  padding-top: 5em;
+  padding-bottom: 2em;
+  color: #ffffff; }
+
+.right-footer {
+  background-color: #262626;
+  padding-top: 5em;
+  padding-bottom: 2em;
+  color: #ffffff; }
+
 .middle-1 {
   background-color: #f4f4f4; }
 
@@ -122,6 +144,10 @@ section {
   background-color: #0fb24b;
   color: #ffffff; }
 
+.bottom-2-text a {
+  color: #ffffff;
+  text-decoration: none; }
+
 .bottom-card {
   color: #0fb24b; }
 
@@ -129,11 +155,24 @@ section {
   color: #ffffff;
   background-color: #808080; }
 
-*:not(body):not(html) {
-  box-sizing: border-box;
-  border: 1px dashed #000; }
+.bottom-3-logo img {
+  width: 100%;
+  filter: grayscale(100%); }
+  .bottom-3-logo img:hover {
+    filter: none; }
 
-.columns {
-  min-height: 100px; }
+.bottom-3 {
+  background-color: #f4f4f4; }
+
+.search-3 {
+  background-color: #0fb24b;
+  color: white; }
+
+.bottom-5-logo img {
+  width: 100%;
+  filter: grayscale(100%); }
+
+.bottom-5 {
+  background-color: #808080; }
 
 /*# sourceMappingURL=styles.css.map */
