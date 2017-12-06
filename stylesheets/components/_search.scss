@@ -8,7 +8,6 @@
     margin-right: 2em;
   }
 }
-
 .btn {
   background-color: $white;
 
@@ -16,4 +15,8 @@
     color: $white;
     background-color: $brand-color;
   }
+}
+.is-valid {
+  background-color: transparent;
+  color: white;
 }

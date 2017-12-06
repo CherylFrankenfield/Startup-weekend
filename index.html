@@ -4,7 +4,9 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery-3.2.1.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>StartUp Weekend</title>
@@ -48,7 +50,7 @@
                       <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                   </li>
-                  <li class="nav-item"> ? </li>
+                  <li class="nav-item"><i class="fa fa-question-circle" aria-hidden="true"></i></li>
                 </ul>
               </div>
             </nav>
@@ -70,7 +72,10 @@
         </div>
       </section>
       <section class="hero-search search-1 d-block d-md-none">
-
+        <form class="search form-inline ">
+          <input class="form-control" type="search" placeholder="United States" aria-label="Search">
+          <button class="btn my-2 my-sm-0" type="submit">GO!</button>
+        </form>
       </section>
       <section class="middle-1">
         <div class="container">
@@ -81,6 +86,7 @@
           <div class="row middle-1-cards">
             <div class="middle-card col-sm-6 col-md-3">
               <div class="card">
+                <span> <i class=" card-1 fa fa-globe" aria-hidden="true"></i></span>
                 <div class="card-body">
                   <h4 class="card-title">Card title</h4>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -89,6 +95,7 @@
             </div>
             <div class="middle-card col-sm-6 col-md-3">
               <div class="card">
+                <span> <i class=" card-1 fa fa-compass" aria-hidden="true"></i></span>
                 <div class="card-body">
                   <h4 class="card-title">Card title</h4>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -97,6 +104,7 @@
             </div>
             <div class="middle-card col-sm-6 col-md-3">
               <div class="card">
+                <span> <i class=" card-2 fa fa-graduation-cap" aria-hidden="true"></i></span>
                 <div class="card-body">
                   <h4 class="card-title">Card title</h4>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -105,6 +113,7 @@
             </div>
             <div class="middle-card col-sm-6 col-md-3">
               <div class="card">
+                <span> <i class=" card-1 fa fa-flag" aria-hidden="true"></i></span>
                 <div class="card-body">
                   <h4 class="card-title">Card title</h4>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -117,7 +126,7 @@
       <section class="middle-2">
         <div class="container">
           <div class="middle-2-text">
-            <h1>Techstars Startup Weekend by the numbers:</h1>
+            <h2>Techstars Startup Weekend by the numbers:</h2>
           </div>
           <div class="row middle-2-stats">
             <div class="col-md-3 middle-stats">
@@ -125,15 +134,15 @@
               <p>Teams Formed</p>
             </div>
             <div class="col-md-3 middle-stats">
-              <h1>23K+</h1>
+              <h1>193K+</h1>
               <p>Teams Formed</p>
             </div>
             <div class="col-md-3 middle-stats">
-              <h1>23K+</h1>
+              <h1>50</h1>
               <p>Teams Formed</p>
             </div>
             <div class="col-md-3 middle-stats">
-              <h1>23K+</h1>
+              <h1>2.9K+</h1>
               <p>Teams Formed</p>
             </div>
           </div>
@@ -149,7 +158,7 @@
           <div class="row middle-day-1">
             <div class="col-md-6 day-card">
               <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="img/logos/green-rectangle.png" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -157,7 +166,7 @@
             </div>
             <div class="col-md-6 day-card">
               <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="img/logos/green-rectangle.png" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -165,7 +174,7 @@
             </div>
             <div class="col-md-6 day-card">
               <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="img/logos/green-rectangle.png" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -173,7 +182,7 @@
             </div>
             <div class="col-md-6 day-card">
               <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="img/logos/green-rectangle.png" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -184,7 +193,7 @@
           <div class="row middle-day-2">
             <div class="col-md-6 day-card">
               <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="img/logos/green-rectangle.png" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -192,7 +201,7 @@
             </div>
             <div class="col-md-6 day-card">
               <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="img/logos/green-rectangle.png" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -203,7 +212,7 @@
           <div class="row middle-day-3">
             <div class="col-md-6 day-card">
               <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="img/logos/green-rectangle.png" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -211,7 +220,7 @@
             </div>
             <div class="col-md-6 day-card">
               <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="img/logos/green-rectangle.png" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -224,6 +233,10 @@
         <div class="container">
           <div class="search">
             <h3>Ready to get started? Find an event near</h3>
+            <form class="search form-inline my-2 my-lg-0">
+              <input class="form-control is-valid" type="search" placeholder="United States" aria-label="Search">
+              <button class="btn my-2 my-sm-0" type="submit">GO!</button>
+            </form>
           </div>
         </div>
       </section>
@@ -330,7 +343,7 @@
             <h1>Techstars Startup Weekend Stories</h1>
           </div>
           <div class="row bottom-4-cards">
-            <div class="carosel col-12 d-block d-md-none">
+            <div class="carousel col-12 d-block d-md-none">
               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -407,6 +420,10 @@
         <div class="container">
           <div class="search">
             <h3>Ready to get started? Find an event near</h3>
+            <form class="search form-inline my-2 my-lg-0">
+              <input class="form-control is-valid" type="search" placeholder="United States" aria-label="Search">
+              <button class="btn my-2 my-sm-0" type="submit">GO!</button>
+            </form>
           </div>
         </div>
       </section>

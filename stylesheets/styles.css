@@ -29,6 +29,11 @@ section {
   padding: 0px;
   overflow: hidden; }
 
+.middle-2 h1 {
+  color: #0fb24b;
+  font-size: 4em;
+  font-weight: bolder; }
+
 /**
  * Clear inner floats
  */
@@ -149,19 +154,40 @@ footer {
     color: #ffffff;
     background-color: #0fb24b; }
 
+.is-valid {
+  background-color: transparent;
+  color: white; }
+
 .middle-1 {
   background-color: #f4f4f4; }
 
 .middle-1-cards {
   padding-top: 7em; }
 
+.card {
+  border: none;
+  position: relative; }
+  .card span {
+    color: #0fb24b;
+    font-size: 6em; }
+
+.card-body {
+  padding: 3em; }
+
+.card-1 {
+  position: absolute;
+  left: 35%;
+  top: -19%; }
+
+.card-2 {
+  position: absolute;
+  left: 30%;
+  top: -19%; }
+
 .middle-3 {
   background-color: #f4f4f4; }
 
 [class*='middle-day-'] {
-  padding-bottom: 7em; }
-
-.middle-3-text {
   padding-bottom: 7em; }
 
 .bottom-1 {
@@ -202,5 +228,8 @@ footer {
 
 .bottom-5 {
   background-color: #808080; }
+
+.day-card {
+  margin-top: 2em; }
 
 /*# sourceMappingURL=styles.css.map */

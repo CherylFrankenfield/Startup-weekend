@@ -8,6 +8,27 @@
 .middle-1-cards {
   padding-top: $section-padding;
 }
+.card {
+  border: none;
+  position: relative;
+  & span {
+    color: $brand-color;
+    font-size: 6em;
+  }
+}
+.card-body{
+  padding: 3em;
+}
+.card-1{
+  position: absolute;
+  left: 35%;
+  top: -19%;
+}
+.card-2{
+  position: absolute;
+  left: 30%;
+  top: -19%;
+}
 
 .middle-2 {
 }
@@ -20,15 +41,9 @@
   padding-bottom: $section-padding;
 }
 
-.middle-3-text {
-  padding-bottom: $section-padding;
-}
-
 .bottom-1 {
   background-color: $mid-grey;
   color: $white;
-
-
 }
 
 .bottom-2 {
@@ -73,4 +88,7 @@
 }
 .bottom-5 {
   background-color: $mid-grey;
+}
+.day-card {
+  margin-top: 2em;
 }
